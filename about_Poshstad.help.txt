@@ -1,0 +1,32 @@
+TOPIC
+    Josh Rolstad's environment agnostic utilities
+
+SHORT DESCRIPTION
+    Environment agnostic utilities
+
+LONG DESCRIPTION
+    Environment agnostic utilities
+    
+PREFERENCE VARIABLES
+    The Poshstad module has two variables that it exports
+    $PoshAws
+    $PoshAws.Preferences
+    
+    Both are hash tables that freely store application state and preferences
+
+CMDLETS
+        
+FUNCTIONS
+    
+    All functions have help, for additional information {function} -?
+    
+	For a listing of functions, run the command:
+	(Get-Module Poshstad).ExportedCommands
+        
+ALIASES
+    To see what aliases get created by Poshstad execute "Get-Command -type Alias -module Poshstad*" at
+    the PowerShell prompt.
+
+UTILITY APPLICATIONS
+
+
